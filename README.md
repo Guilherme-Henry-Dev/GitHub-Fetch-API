@@ -77,15 +77,14 @@ Basta digitar o nome de usuário e visualizar dados como **foto de perfil, bio e
 - [x] Exibir foto de perfil, bio e repositórios públicos  
 - [x] Tratamento de erro quando o usuário não existe  
 - [x] Layout **totalmente responsivo**  
-- [ ] Melhorar visualização dos repositórios (grid/cards clicáveis)  
-- [ ] Exibir seguidores/seguindo  
+- [x] Melhorar visualização dos repositórios (grid/cards clicáveis)  
+- [x] Exibir seguidores/seguindo  
 - [ ] Dark/Light mode  
 
 ---
 
 ## 🛣️ Próximos Passos (Roadmap)
-
-- 🔹 Mostrar estatísticas do usuário (seguidores, seguindo, estrelas recebidas, watchers, linguagem de programação do repositório, forks )  
+ 
 - 🔹 Exibir principais linguagens de programação utilizadas em gráfico dinâmico  
 - 🔹 Criar modo **Dark/Light** com alternância no botão  
 - 🔹 Melhorar UI/UX com animações e microinterações  

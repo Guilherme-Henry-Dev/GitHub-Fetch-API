@@ -121,7 +121,6 @@ main {
   line-height: 23px;
 }
 
-/* REPOSITORIES */
 
 .container .profile-data .repositories h2{
   margin-bottom: 30px;
@@ -152,44 +151,43 @@ main {
   display: none;
 }
 
-@media (max-width: 1280px) {
-  .container {
-    flex-direction: column;
-    width: 90%;
-    border-radius: 20px;
-  }
-
-  .container header {
-    width: 100%;
-  }
-
-  .container header h1 {
-    font-size: 24px;
-    text-align: center;
-  }
+.profile-data .repositories ul,
+.profile-data .events ul {
+  max-height: 200px; 
+  overflow-y: auto; 
+  padding-left: 20px;
+  margin-top: 8px;
 }
 
-@media (max-width: 768px) {
-  .container header #input-search,
-  .container header #btn-search
-  {
-    width: 100%;
-  }
+.profile-data li {
+  margin-bottom: 6px;
+  font-size: 14px;
 }
 
-@media (max-width: 425px) {
-  main {
-    padding: 15% 0;    
-  }
 
-  .container .profile-data .info img{
-    margin-bottom: 20px;
-  }
+.repo-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 12px;
+  text-align: center;
+  background: #fff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
 
-  .container .profile-data .info img,
-  .container .profile-data .info .data
-  {
-    width: 100%;
-    padding: 0;
-  }
+
+.repo-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.repo-name:hover {
+  color: #722F37;
+}
+
+.repositories-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 16px;
+  margin-top: 12px;
 }
