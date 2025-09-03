@@ -34,7 +34,10 @@ Basta digitar o nome de usuário e visualizar dados como **foto de perfil, bio e
  ┣ 📂 src
  ┃ ┣ 📂 css
  ┃ ┃ ┣ 📜 reset.css           # Reset de estilos
+ ┃ ┃ ┗ 📜 responsive.css      # Responsividade do projeto
  ┃ ┃ ┗ 📜 styles.css          # Estilo principal
+ ┃ ┃ ┗ 📜 switch.css          # Botão Dark/Ligth mmode
+ ┃ ┃ ┗ 📜 variables.css       # Variáveis globais de tema
  ┃ ┣ 📂 scripts
  ┃ ┃ ┣ 📂 objects
  ┃ ┃ ┃ ┣ 📜 screen.js         # Renderização de dados na tela
