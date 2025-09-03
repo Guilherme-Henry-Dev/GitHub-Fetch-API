@@ -79,14 +79,13 @@ Basta digitar o nome de usuário e visualizar dados como **foto de perfil, bio e
 - [x] Layout **totalmente responsivo**  
 - [x] Melhorar visualização dos repositórios (grid/cards clicáveis)  
 - [x] Exibir seguidores/seguindo  
-- [ ] Dark/Light mode  
+- [x] Dark/Light mode  
 
 ---
 
 ## 🛣️ Próximos Passos (Roadmap)
  
-- 🔹 Exibir principais linguagens de programação utilizadas em gráfico dinâmico  
-- 🔹 Criar modo **Dark/Light** com alternância no botão  
+- 🔹 Exibir principais linguagens de programação utilizadas em gráfico dinâmico   
 - 🔹 Melhorar UI/UX com animações e microinterações  
 
 ---

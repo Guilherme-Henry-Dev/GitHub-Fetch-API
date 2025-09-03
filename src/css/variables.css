@@ -1,0 +1,17 @@
+:root {
+  --bg-color: #fff;
+  --text-color: #000;
+  --card-bg: #f9f9f9;
+  --card-text: #000;
+  --accent-color: #722F37;
+  --icon-color: #000;
+}
+
+body.dark {
+  --bg-color: #24292e;
+  --text-color: #fff;
+  --card-bg: #2f363d;
+  --card-text: #fff;
+  --accent-color: #722F37;
+  --icon-color: #fff;   
+}

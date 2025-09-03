@@ -47,3 +47,9 @@ async function getUserData(userName){
     
     screen.renderUser(user)
 }
+
+const themeToggle = document.getElementById('theme-toggle');
+
+themeToggle.addEventListener('change', () => {
+  document.body.classList.toggle('dark', themeToggle.checked);
+});

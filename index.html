@@ -8,8 +8,10 @@
     <title>GitHub API - buscando usuários com fetch</title>
 
     <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/variables.css">
     <link rel="stylesheet" href="src/css/styles.css">
     <link rel="stylesheet" href="src/css/responsive.css">
+    <link rel="stylesheet" href="src/css/switch.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
 </head>
 
@@ -19,6 +21,11 @@
 
         <section class="container">
             <header>
+                <label class="switch">
+                    <input type="checkbox" id="theme-toggle">
+                    <span class="slider"></span>
+                </label>
+
                 <h2>Buscar Usuário</h2>
                 <input type="text" id="input-search" placeholder="Digite o nome do usuário no GitHub">
                 <input type="button" value="Buscar" id="btn-search">

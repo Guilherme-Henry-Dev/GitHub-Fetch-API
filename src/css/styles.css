@@ -11,7 +11,8 @@ img {
 }
 
 body {
-  background-color:#24292e;
+  background-color: var(--bg-color);
+  color: var(--text-color);
   font-family: "Kumbh Sans", sans-serif;  
   text-align: center;    
   padding-bottom: 100px;
@@ -27,7 +28,7 @@ main {
 .devicon-github-original{
   font-size: 60px;
   margin-bottom: 30px;
-  color: #FFFFFF;
+  color: var(--icon-color);
 }
 
 .section{
@@ -35,10 +36,11 @@ main {
 }
 
 .container {
-  width: 60%; /* se for uma tela menor que 980px vai se adaptar a 70% */
-  max-width: 960px; /* quando chegar em 980px para de aumentar */
+  width: 60%; 
+  max-width: 960px;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 25px 50px -12px;
-  background-color: #fff;
+  background-color: var(--card-bg);
+  color: var(--card-text);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -170,7 +172,8 @@ main {
   border-radius: 8px;
   padding: 12px;
   text-align: center;
-  background: #fff;
+  background-color: var(--card-bg);
+  color: var(--card-text);
   box-shadow: 0 2px 5px rgba(0,0,0,0.05);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
