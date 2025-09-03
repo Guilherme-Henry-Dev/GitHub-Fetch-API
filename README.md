@@ -47,6 +47,7 @@ Basta digitar o nome de usuário e visualizar dados como **foto de perfil, bio e
  ┃ ┃ ┃ ┣ 📜 user.js           # Consumo de dados do usuário da API
  ┃ ┃ ┃ ┣ 📜 variables.js      # Seletores e variáveis globais
  ┃ ┃ ┃ ┗ 📜 index.js          # Ponto inicial do app (lógica principal)
+ ┃ ┃
  ┣ 📜 index.html              # Estrutura da página
  ┗ 📜 README.md               # Documentação
 ```
