@@ -21,10 +21,10 @@ const screen = {
             <a href="${repo.html_url}" target="_blank" class="repo-name">
               ${repo.name}
                 <div>
-                <span>⭐ ${repo.stargazers_count}</span>
-                <span>🍴 ${repo.forks_count}</span>
-                <span>👀 ${repo.watchers_count}</span>
-                <span>💻 ${repo.language ?? 'N/A'}</span>
+                  <span>⭐ ${repo.stargazers_count ?? 'N/A'}</span>
+                  <span>🍴 ${repo.forks_count ?? 'N/A'}</span>
+                  <span>👀 ${repo.watchers_count ?? 'N/A' }</span>
+                  <span>💻 ${repo.language ?? 'N/A'}</span>
                 </div>
             </a>
           </div>`;
